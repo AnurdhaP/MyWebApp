@@ -66,7 +66,10 @@
         <plugin>
           <artifactId>maven-war-plugin</artifactId>
           <version>3.2.2</version>
-        </plugin>
+	<configuration>
+        <failOnMissingWebXml>false</failOnMissingWebXml>
+    	</configuration>
+	</plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
           <version>2.5.2</version>
